@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.materi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    background-color: #ffc107;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+}
+
+.item p {
+    margin: 5px 0 0 0;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
